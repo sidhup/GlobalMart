@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44376" started-at="2019-03-18T09:14:07Z" finished-at="2019-03-18T09:14:51Z">
+  <suite name="Suite" duration-ms="62710" started-at="2019-04-03T14:17:34Z" finished-at="2019-04-03T14:18:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44376" started-at="2019-03-18T09:14:07Z" finished-at="2019-03-18T09:14:51Z">
+    <test name="Test" duration-ms="62710" started-at="2019-04-03T14:17:34Z" finished-at="2019-04-03T14:18:36Z">
       <class name="com.global_mart.smoketest.HomePageTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.global_mart.smoketest.HomePageTest@4dfa3a9d]" name="openBrowser" is-config="true" duration-ms="12688" started-at="2019-03-18T09:14:07Z" finished-at="2019-03-18T09:14:19Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.global_mart.smoketest.HomePageTest@6eebc39e]" name="openBrowser" is-config="true" duration-ms="37020" started-at="2019-04-03T14:17:34Z" finished-at="2019-04-03T14:18:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="verifyLogo()[pri:1, instance:com.global_mart.smoketest.HomePageTest@4dfa3a9d]" name="verifyLogo" duration-ms="9" started-at="2019-03-18T09:14:19Z" finished-at="2019-03-18T09:14:19Z">
+        <test-method status="FAIL" signature="verifyLogo()[pri:1, instance:com.global_mart.smoketest.HomePageTest@6eebc39e]" name="verifyLogo" duration-ms="32" started-at="2019-04-03T14:18:11Z" finished-at="2019-04-03T14:18:11Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -47,15 +47,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.global_mart.smoketest.HomePageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="1134" started-at="2019-03-18T09:14:19Z" finished-at="2019-03-18T09:14:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.global_mart.smoketest.HomePageTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="1435" started-at="2019-04-03T14:18:11Z" finished-at="2019-04-03T14:18:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.global_mart.smoketest.HomePageTest@4dfa3a9d]" name="openBrowser" is-config="true" duration-ms="9937" started-at="2019-03-18T09:14:21Z" finished-at="2019-03-18T09:14:30Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.global_mart.smoketest.HomePageTest@6eebc39e]" name="openBrowser" is-config="true" duration-ms="9038" started-at="2019-04-03T14:18:12Z" finished-at="2019-04-03T14:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="clickOnJustinWomenTest()[pri:2, instance:com.global_mart.smoketest.HomePageTest@4dfa3a9d]" name="clickOnJustinWomenTest" duration-ms="117" started-at="2019-03-18T09:14:30Z" finished-at="2019-03-18T09:14:31Z">
+        <test-method status="FAIL" signature="clickOnJustinWomenTest()[pri:2, instance:com.global_mart.smoketest.HomePageTest@6eebc39e]" name="clickOnJustinWomenTest" duration-ms="549" started-at="2019-04-03T14:18:21Z" finished-at="2019-04-03T14:18:22Z">
           <exception class="java.util.NoSuchElementException">
             <message>
               <![CDATA[is ot displayed]]>
@@ -97,15 +97,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnJustinWomenTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.global_mart.smoketest.HomePageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="1011" started-at="2019-03-18T09:14:31Z" finished-at="2019-03-18T09:14:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.global_mart.smoketest.HomePageTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="768" started-at="2019-04-03T14:18:22Z" finished-at="2019-04-03T14:18:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.global_mart.smoketest.HomePageTest@4dfa3a9d]" name="openBrowser" is-config="true" duration-ms="18344" started-at="2019-03-18T09:14:32Z" finished-at="2019-03-18T09:14:50Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.global_mart.smoketest.HomePageTest@6eebc39e]" name="openBrowser" is-config="true" duration-ms="12719" started-at="2019-04-03T14:18:23Z" finished-at="2019-04-03T14:18:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="clickOnJustinDropDown()[pri:3, instance:com.global_mart.smoketest.HomePageTest@4dfa3a9d]" name="clickOnJustinDropDown" duration-ms="32" started-at="2019-03-18T09:14:50Z" finished-at="2019-03-18T09:14:50Z">
+        <test-method status="FAIL" signature="clickOnJustinDropDown()[pri:3, instance:com.global_mart.smoketest.HomePageTest@6eebc39e]" name="clickOnJustinDropDown" duration-ms="50" started-at="2019-04-03T14:18:35Z" finished-at="2019-04-03T14:18:36Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -155,11 +155,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnJustinDropDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.global_mart.smoketest.HomePageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="1010" started-at="2019-03-18T09:14:50Z" finished-at="2019-03-18T09:14:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.global_mart.smoketest.HomePageTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="845" started-at="2019-04-03T14:18:36Z" finished-at="2019-04-03T14:18:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.global_mart.smoketest.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
